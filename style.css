@@ -1,0 +1,29 @@
+ .completed{ 
+    color: #27ae60; 
+}
+        
+.todos label{ 
+    cursor: pointer; 
+}
+        
+header h1{ 
+    margin: 0; 
+}
+
+.todos{
+    list-style: none;
+    margin: 0;
+    padding: 2em;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 1em;
+    border: 1px solid #ddd;
+}
+        
